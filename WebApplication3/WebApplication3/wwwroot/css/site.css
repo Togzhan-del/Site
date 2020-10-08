@@ -1,0 +1,32 @@
+﻿
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body {
+
+  font-family: montserrat, sans-serif;
+}
+
+.page-wrap{
+    display:flex;
+    min-height:100vh;
+
+}
+
+.left-panel {
+    flex: 1 1 66.666%;
+    background-image: linear-gradient(to bottom right, #7B68EE,#191970)
+}
+
+.right-panel{
+    flex: 1 1 33.333%;
+}
+
+h2{
+    color:aqua;
+    background-color:black;
+}
